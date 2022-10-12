@@ -13,6 +13,10 @@ window.onscroll = function () {
     }
 }
 
+function topFunction() {
+    document.dicumentElement.scrollTop = 0;
+}
+
 // Hamburger
 const hamburger = document.querySelector('#hamburger');
 const navMenu = document.querySelector('#nav-menu');
